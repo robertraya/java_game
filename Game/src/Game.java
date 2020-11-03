@@ -40,7 +40,7 @@ public class Game extends Canvas implements Runnable {
         this.addKeyListener(new KeyInput(handler));
         this.addMouseListener(menu);
 
-        new Window(WIDTH, HEIGHT, "LET'S FUCKIN GO!", this);
+        new Window(WIDTH, HEIGHT, "TEST", this);
 
         hud = new HUD();
         spawn = new Spawn(handler, hud);
